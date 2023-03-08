@@ -1,0 +1,21 @@
+Instalação do git:
+https://git-scm.com/download/win
+
+- Abrir o explorer, clicar com o botão direito e clicar em "Git bach here":
+
+git --version //acessa a versão do Git
+git config --list //mostra uma lista de informações da conta
+git config --global user.name "filipe-oliv95" //insere o user.name
+git config --global user.email "filipec.oliveira95@gmail.com" //insere o user.email
+
+https://docs.github.com/pt/authentication/connecting-to-github-with-ssh/generating-a-new-ssh-key-and-adding-it-to-the-ssh-agent
+ssh-keygen -t rsa -b 4096 -C "filipec.oliveira95@gmail.com" //cria uma chave em C:\Users\Pichau\.ssh
+
+- Abrir o arquivo com o bloco de notas
+- Copiar a chave e colar no github (settings / SSH)
+
+Mas, o que é SSH? https://www.youtube.com/watch?v=z7jVOenqFYk
+
+git init //cria um repositório local
+git status //mostra o conteudo da pasta
+git add . //selecionou todas as pastas para serem rastreadas no Git
