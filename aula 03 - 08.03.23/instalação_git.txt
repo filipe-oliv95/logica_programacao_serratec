@@ -19,3 +19,10 @@ Mas, o que é SSH? https://www.youtube.com/watch?v=z7jVOenqFYk
 git init //cria um repositório local
 git status //mostra o conteudo da pasta
 git add . //selecionou todas as pastas para serem rastreadas no Git
+
+- Sincronizar o repositório local com o repositorio remoto (
+git remote add origin https://github.com/filipe-oliv95/logica-2023.git
+
+git add . / git commit -m "segundo commit" / push... //processo para adicionar novos arquivos no github
+
+git clone git@github.com:filipe-oliv95/teste-aula2.git //(clonar)link copiado do repositório do github
