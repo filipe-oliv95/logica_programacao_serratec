@@ -23,6 +23,26 @@ git add . //selecionou todas as pastas para serem rastreadas no Git
 - Sincronizar o repositório local com o repositorio remoto (
 git remote add origin https://github.com/filipe-oliv95/logica-2023.git
 
-git add . / git commit -m "segundo commit" / push... //processo para adicionar novos arquivos no github
+git status / Aula git add . / git commit -m "segundo commit" / git push //processo para atualizar pasta de arquivos no github
 
 git clone git@github.com:filipe-oliv95/teste-aula2.git //(clonar)link copiado do repositório do github
+
+||||||||||||||||||||||||||||09/03/22|||||||||||||||||||||||||||
+
+BRANCH
+O projeto principal fica no main, e as ramificações são as branchs - quando pessoas secundárias
+desenvovem o projeto a parte
+
+git branch //exibe a branch local
+git branch -a //exibe a branch local e remota
+git branch exemplo //cria uma nova branch
+git checkout exemplo //troca de branch
+
+echo "teste de branch exemplo" > aula4branch.txt //cria um arquivo na branch exemplo
+
+git checkout main //volta para o main, e os arquivos criados na branch somem
+
+git merge exemplo //mescla o exemplo com o main
+
+git pull //traz os arquivos do GitHub para o computador
+
