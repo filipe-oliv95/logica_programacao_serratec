@@ -1,0 +1,13 @@
+É uma função que chama ela mesma, até que o problema seja solucionado
+
+Regras de um algoritmo recursivo:
+#1 - um algoritmo recursivo deve ter um caso básico, um caso em que ele deve ser encerrado (fim previsto)
+#2 - a cada chamada do resultado resurviso, o resultado deve se aproximar do caso básico
+#3 - o algoritmo deve chamar a ele mesmo
+
+Tipos de resursão
+Recursão direta: a recursão chama a ela mesma
+Recursão indireta: a primeira função chama a segunda função, que por sua vez, chama a primeira novamente.
+Recursão em cauda: a chamada da recursividade é a ultima chamada pra ser executada
+Non-tail recursive: qualquer outro caso que nao seja a ultima a ser executada
+
