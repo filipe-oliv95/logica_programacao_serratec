@@ -1,0 +1,11 @@
+dados: inteiro, texto, caractere
+estrutura: vetores, pilha, filas, listas
+
+Vetores
+São estruturas de dados simples
+Podem ser unidimensionais ou bidimensionais (matriz).
+
+- começam no 0
+- tamanho finito
+- acesso atraves de indices
+

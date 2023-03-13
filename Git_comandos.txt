@@ -1,3 +1,5 @@
+||||||||||||||||||||||||||||08/03/22|||||||||||||||||||||||||||
+
 Instalação do git:
 https://git-scm.com/download/win
 
@@ -45,4 +47,22 @@ git checkout main //volta para o main, e os arquivos criados na branch somem
 git merge exemplo //mescla o exemplo com o main
 
 git pull //traz os arquivos do GitHub para o computador
+
+||||||||||||||||||||||||||||10/03/22|||||||||||||||||||||||||||
+
+Teste para voltar o commit:
+- Criar pasta TesteReset no disco C:\
+- Criar repositório:
+
+git init //cria um repositório local
+git add . //selecionou todas as pastas para serem rastreadas no Git
+git commit -m "segundo commit"
+git log //mostra os commits realizados
+
+- Voltar o commit: copiar o código do primeiro commit
+
+git reset --hard b8dfb2bc53b4d500ec66be7d4063a079f20fe5b2 // retorna ao primeiro commit, APAGANDO os outros arquivos
+git reset --soft b8dfb2bc53b4d500ec66be7d4063a079f20fe5b2 // retorna ao primeiro commit, mas MANTÉM os arquivos, NAO precisa do git add . após o comando. Mais utilizado
+git reset --mixed b8dfb2bc53b4d500ec66be7d4063a079f20fe5b2 // precisa do git add . após o comando
+
 
