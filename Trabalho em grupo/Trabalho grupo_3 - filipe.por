@@ -7,7 +7,7 @@ programa
 	
 	funcao inicio(){
 		//menu do programa
-		enquanto(selecao != 5){
+		enquanto(selecao!= 5){
 			limpa()
 			escreva("HOSPITAL - XPTO\n")
 			escreva("----------------------------------\n")
@@ -144,7 +144,7 @@ programa
  * Esta seção do arquivo guarda informações do Portugol Studio.
  * Você pode apagá-la se estiver utilizando outro editor.
  * 
- * @POSICAO-CURSOR = 3703; 
+ * @POSICAO-CURSOR = 296; 
  * @PONTOS-DE-PARADA = ;
  * @SIMBOLOS-INSPECIONADOS = ;
  * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;
