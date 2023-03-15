@@ -1,13 +1,13 @@
 programa
 {
-	
+// podemos enviar qualquer variável, desde que seja do mesmo tipo
 	funcao inicio(){
-		inteiro ano, semestre
+	inteiro a, b
 		escreva("Escreva o ano: ")
-		leia(ano)
+		leia(a)
 		escreva("Escreva o semestre: ")
-		leia(semestre)
-		mensagem(ano, semestre)
+		leia(b)
+		mensagem(a, b) // ele envia sempre nessa ordem
 	}
 	funcao mensagem(inteiro ano, inteiro semestre){ // parâmetros
 		escreva("-------------------------\n")
@@ -20,7 +20,7 @@ programa
  * Esta seção do arquivo guarda informações do Portugol Studio.
  * Você pode apagá-la se estiver utilizando outro editor.
  * 
- * @POSICAO-CURSOR = 388; 
+ * @POSICAO-CURSOR = 214; 
  * @PONTOS-DE-PARADA = ;
  * @SIMBOLOS-INSPECIONADOS = ;
  * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;

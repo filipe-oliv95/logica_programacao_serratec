@@ -1,5 +1,20 @@
 ||||||||||||||||||||||||||||08/03/22|||||||||||||||||||||||||||
 
+O QUE É O GIT? 
+É um sistema de controle de versão dee um código. Imagine que você esteja em um projeto com outros envolvidos. Como todos terão acesso
+ao código? Através do git! É importante entender que toda vez que se atualiza um código, se cria uma nova versão do mesmo.
+Mas por que não utilizar o google drive? Pq o google drive é um sistema de armazenamento, e utiliza-lo pode causar problemas
+como por exemplo sobrescrever o código de alguem. Além disso, o github permite voltar a uma versão anterior do código, o que
+o google drive não oferece.
+
+
+E O GITHUB?
+O Github, por sua vez, é uma plataforma de hospedagem de código
+
+Master: caminho principal do código
+Branchs: um novo ramo, um desvio do código master
+Commit: pontos de versionamento. É uma boa prática fazer commits pequenos.
+
 Instalação do git:
 https://git-scm.com/download/win
 
@@ -22,7 +37,7 @@ git init //cria um repositório local
 git status //mostra o conteudo da pasta
 git add . //selecionou todas as pastas para serem rastreadas no Git
 
-- Sincronizar o repositório local com o repositorio remoto (
+- Sincronizar o repositório local com o repositorio remoto
 git remote add origin https://github.com/filipe-oliv95/logica-2023.git
 
 git status / Aula git add . / git commit -m "segundo commit" / git push //processo para atualizar pasta de arquivos no github
@@ -38,7 +53,8 @@ desenvovem o projeto a parte
 git branch //exibe a branch local
 git branch -a //exibe a branch local e remota
 git branch exemplo //cria uma nova branch
-git checkout exemplo //troca de branch
+git checkout exemplo //troca de branch 
+git branch -M main
 
 echo "teste de branch exemplo" > aula4branch.txt //cria um arquivo na branch exemplo
 
@@ -64,5 +80,7 @@ git log //mostra os commits realizados
 git reset --hard b8dfb2bc53b4d500ec66be7d4063a079f20fe5b2 // retorna ao primeiro commit, APAGANDO os outros arquivos
 git reset --soft b8dfb2bc53b4d500ec66be7d4063a079f20fe5b2 // retorna ao primeiro commit, mas MANTÉM os arquivos, NAO precisa do git add . após o comando. Mais utilizado
 git reset --mixed b8dfb2bc53b4d500ec66be7d4063a079f20fe5b2 // precisa do git add . após o comando
+
+git pull - puxa os arquivos novos
 
 
